@@ -1,0 +1,15 @@
+item {
+    name: "fall",
+    id: 1,
+    display_name: "fall"
+}
+item {
+    name: "sit",
+    id: 2,
+    display_name: "sit"
+}
+item {
+    name: "stand",
+    id: 3,
+    display_name: "stand"
+}
