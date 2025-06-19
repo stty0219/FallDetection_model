@@ -4,8 +4,8 @@ import os
 from tensorflow.python.framework.convert_to_constants import convert_variables_to_constants_v2
 
 # --- 配置路徑 ---
-original_saved_model_path = r'C:\Users\a0931\TensorFlow\new_model_v1\saved_model'
-new_saved_model_path = r'C:\Users\a0931\TensorFlow\new_model_v1\saved_model_with_preprocessing'
+original_saved_model_path = r'C:\Users\a0931\TensorFlow\new_model_v2\saved_model'
+new_saved_model_path = r'C:\Users\a0931\TensorFlow\new_model_v2\saved_model_with_preprocessing'
 
 # --- 載入原始 SavedModel ---
 print(f"載入原始 SavedModel: {original_saved_model_path}")
