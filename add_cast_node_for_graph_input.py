@@ -3,8 +3,8 @@ from onnx import helper
 from onnx import TensorProto
 
 # 定義您的原始模型檔案名稱
-original_model_path = "new_model_v1/model_v1_simplified.onnx" # 請將此替換為您的實際 ONNX 檔案路徑
-output_model_path = "new_model_v1/model_v1_float32_noCast.onnx" # 新的輸出檔案名
+original_model_path = "new_model_v1/model_v1_opset11.onnx" # 請將此替換為您的實際 ONNX 檔案路徑
+output_model_path = "new_model_v1/model_v1_opset11_float32_noCast.onnx" # 新的輸出檔案名
 
 # 定義原始輸入的名稱 (根據您的 Netron 截圖，通常是 'input_tensor:0' 或類似名稱)
 input_to_modify = 'input_tensor:0' # 請確認您的模型輸入名稱
