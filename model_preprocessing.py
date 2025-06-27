@@ -6,8 +6,8 @@ import numpy as np
 # 定義您的原始模型檔案名稱
 # 重要：請將此替換為您從 tf2onnx 轉換出來的 ONNX 檔案路徑。
 # 例如：original_model_path = "new_model_v1/model_v1_for_trt.onnx"
-original_model_path = "new_model_v1/model_v1_for_trt.onnx" # <--- 請務必更新為您的實際檔案路徑！
-output_model_path = "new_model_v1/model_v1_for_trt_float32_final.onnx" # 修正後輸出的檔案名稱
+original_model_path = "new_model_fpnlite/model.onnx" # <--- 請務必更新為您的實際檔案路徑！
+output_model_path = "new_model_fpnlite/model_float32.onnx" # 修正後輸出的檔案名稱
 
 # 根據您在 Netron 中找到的 initializer 值，將 K_VALUE 設定為 100。
 # 如果您的模型 K 值不同，請務必修改此處。
